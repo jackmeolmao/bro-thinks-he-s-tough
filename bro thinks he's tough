@@ -1,0 +1,32 @@
+--Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
+--Counted 3 (objects this time!!!)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local ScreenGui = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='ScreenGui', Parent=game.CoreGui})
+local TextButton = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size28,Text='Bro Think\'s he\'s tough',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=25,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.152941, 0.152941, 0.152941),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0265444033, 0, 0.596127748, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 200, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextButton',Parent = ScreenGui})
+
+TextButton.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Bro thinks he's tough talking on roblox 😭 if you ever see me in the streets you better run 🏃‍ 💯 because I don't play no games 🙅‍ .Im from the hood g 🔫", 'All')
+
+	wait(4)
+
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" I grew up in the slums and my street cred is not to be questioned gang 💯💯💯 . U Don't play wit me or sh will get ugly fr fr 🤣 ", 'All')
+
+end)
+
+local TextButton2 = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size28,Text='Bro Think\'s she\'s tough',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=25,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.152941, 0.152941, 0.152941),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0265444033, 0, 0.698029935, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 200, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextButton2',Parent = ScreenGui})
+
+TextButton2.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Bro thinks she's tough talking on roblox 😭 if you ever see me in the streets you better run 🏃‍ 💯 because I don't play no games 🙅‍ .Im from the hood g 🔫", 'All')
+
+	wait(4)
+
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" I grew up in the slums and my street cred is not to be questioned gang 💯💯💯 . U Don't play wit me or sh will get ugly fr fr 🤣  ", 'All')
+
+end)
